@@ -1,0 +1,24 @@
+{:source-paths ["src"]
+
+ :jvm-opts ["--add-modules" "java.xml.bind"]
+
+ :dependencies [[binaryage/devtools "0.9.9"]
+                [proto-repl "0.3.1"]
+                [reagent "0.8.0-alpha2"]]
+
+ :nrepl        {:port 3333}
+
+ :builds
+ {:app {:target :browser
+        :output-dir "public/js"
+        :asset-path "/js"
+
+        :modules
+        {:main
+         {:entries [app.core]}}
+
+        :devtools
+        {:after-load  app.core/main
+         :http-root   "public"
+         :http-port   3000
+         :preloads    [shadow.cljs.devtools.client.hud]}}}}
