@@ -2,6 +2,14 @@
   "name": "shadow-reagent",
   "version": "0.0.1",
   "description": "Template for shadow-cljs and reagent projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacekschae/occasion.git"
+  },
+  "author": {
+    "name": "Jacek Schae",
+    "email": "jacek.schae@gmail.com"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "shadow-cljs watch app;",
