@@ -4,7 +4,7 @@
   "description": "Template for shadow-cljs and reagent projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacekschae/occasion.git"
+    "url": "https://github.com/jacekschae/shadow-reagent"
   },
   "author": {
     "name": "Jacek Schae",
