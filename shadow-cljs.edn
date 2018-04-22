@@ -2,9 +2,9 @@
 
  :jvm-opts ["--add-modules" "java.xml.bind"]
 
- :dependencies [[binaryage/devtools "0.9.9"]
+ :dependencies [[binaryage/devtools "0.9.10"]
                 [proto-repl "0.3.1"]
-                [reagent "0.8.0-alpha2"]]
+                [reagent "0.8.0"]]
 
  :nrepl        {:port 3333}
 
