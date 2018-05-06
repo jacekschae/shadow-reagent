@@ -18,9 +18,11 @@
     "clean": "rm -rf target; rm -rf public/js"
   },
   "dependencies": {
-    "create-react-class": "^15.6.2",
+    "create-react-class": "^15.6.3",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "shadow-cljs": "^2.3.0"
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.3.19"
   }
 }
