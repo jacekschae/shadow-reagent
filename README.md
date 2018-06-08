@@ -4,7 +4,7 @@
 
 `proto-repl` is a Clojure(Script) dev env for [Atom](https://atom.io/)
 
-`reagent` is a ClojureScript wrapper for [React](https://reactjs.org/)(https://github.com/reagent-project/reagent).
+`reagent` is a ClojureScript wrapper for [React](https://reactjs.org/).
 
 ## Setup And Run
 #### Copy repository
