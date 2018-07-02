@@ -10,9 +10,9 @@
 (defn counter
   []
   [:div
-   [:button.btn {:on-click #(increment %)} "-"]
+   [:button.btn {:on-click #(decrement %)} "-"]
    [:button {:disabled true} (get @app-state :count)]
-   [:button.btn {:on-click #(decrement %)} "+"]])
+   [:button.btn {:on-click #(increment %)} "+"]])
 
 (defn app []
   [:div
