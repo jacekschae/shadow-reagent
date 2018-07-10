@@ -17,5 +17,4 @@
 
         :devtools
         {:http-root   "public"
-         :http-port   3000
-         :preloads    [shadow.cljs.devtools.client.hud]}}}}
+         :http-port   3000}}}}
